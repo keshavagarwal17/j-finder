@@ -9,8 +9,8 @@ import { data } from './data/data';
 function App() {
   return (
     <div className="App bg-gray-100 font-body">
-      <FormWrapper step_number={1} form={<Form1 />} width={577}/>
-      <FormWrapper step_number={2} form={<Form2 />} width={577}/>
+      <FormWrapper step_number={1} form={<Form1 />} />
+      <FormWrapper step_number={2} form={<Form2 />} />
       <JobCard data={data[0]}/>
       <JobDashboard />
     </div>
